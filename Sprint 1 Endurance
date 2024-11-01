@@ -1,0 +1,21 @@
+async function startProgram() {
+	setMainLed({ r: 78, g: 255, b: 74 });
+	await speak('Ready, Set, GO', false);
+	await delay(3);
+	await roll(180, 140, 5);
+	setStabilization(true);
+	await delay(1);
+	await spin(90, 1);
+	await roll(270, 75, 5);
+	setStabilization(true);
+	await delay(1);
+	await spin(90, 1);
+	await roll(0, 140, 5);
+	setStabilization(true);
+	await delay(1);
+	await spin(90, 0);
+	await roll(90, 75, 5);
+	setStabilization(true);
+	setMainLed({ r: 255, g: 22, b: 37 });
+	await speak('I\'m tired, I need some water', true);
+}
