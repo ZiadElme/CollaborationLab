@@ -1,0 +1,30 @@
+async function startProgram() {
+	await roll(315, 150, 0.4);
+	await roll(290, 150, 0.4);
+	await roll(275, 150, 0.4);
+	await roll(250, 150, 0.4);
+	await roll(235, 150, 0.4);
+	await roll(210, 150, 0.4);
+	await roll(181, 150, 0.4);
+	await roll(166, 150, 0.4);
+	await roll(140, 150, 0.4);
+	await roll(115, 150, 0.4);
+	await roll(99, 150, 0.4);
+	await roll(81, 150, 0.4);
+	await roll(71, 150, 0.4);
+	await roll(335, 150, 1.5);
+	await roll(71, 150, 0.4);
+	await roll(81, 150, 0.4);
+	await roll(99, 150, 0.4);
+	await roll(115, 150, 0.4);
+	await roll(140, 150, 0.4);
+	await roll(166, 150, 0.4);
+	await roll(181, 150, 0.4);
+	await roll(210, 150, 0.4);
+	await roll(235, 150, 0.4);
+	await roll(250, 150, 0.4);
+	await roll(275, 150, 0.4);
+	await roll(290, 150, 0.4);
+	await roll(315, 150, 0.4);
+	await roll(351, 150, 0.8);
+}
