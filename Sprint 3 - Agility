@@ -1,0 +1,16 @@
+async function startProgram() {
+	await roll(315, 160, 1);
+	await delay(2);
+	setStabilization(true);
+	await roll(47, 170, 1);
+	await delay(2);
+	setStabilization(true);
+	await roll(316, 233, 1);
+	await delay(4);
+	setStabilization(true);
+	await roll(52, 220, 3);
+	await delay(3);
+	setStabilization(true);
+	await delay(3);
+	await roll(126, 250, 3);
+}
